@@ -17,27 +17,30 @@
             background: linear-gradient(135deg, #000000, #0a1f44);
             height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
         }
 
-        img {
+        img, video {
             width: 500px;
+            height: 700px;
             border-radius: 15px;
             border: 3px solid #1e90ff;
             box-shadow: 0 0 25px rgba(30, 144, 255, 0.7);
             transition: transform 0.4s ease, box-shadow 0.4s ease;
+            margin: 10px;
         }
 
-        img:hover {
+        video,img:hover {
             transform: scale(1.05);
             box-shadow: 0 0 40px rgba(30, 144, 255, 1);
         }
     </style>
-
-   <h1 style="color: #1e90ff; margin-bottom: 20px;">Eiki da ARUELA</h1>
     <img src="eiki.jpeg" alt="Eiki">
+    <img src="julinha.png" alt="Julinha">
+    <video controls>
+        <source src="eiki.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
